@@ -1,0 +1,10 @@
+.viewcustomers {
+  margin-left: 26rem;
+  margin-top: 8rem;
+  margin-right: 4rem;
+  background-color: white;
+}
+.viewcustomers-content {
+  display: flex;
+  flex-direction: column;
+}

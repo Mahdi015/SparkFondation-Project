@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19rem;
+}
+.footer h1 {
+  font-size: 20px;
+  color: #46505a;
+}

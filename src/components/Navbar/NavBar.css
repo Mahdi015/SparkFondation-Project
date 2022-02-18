@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: white;
+  height: 80px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.navbar-content-logo a {
+  font-family: "Rowdies", cursive;
+  text-decoration: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #46505a;
+}
+.navbar-content-links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #46505a;
+  font-size: 26px;
+  font-weight: 800;
+  padding: 15px;
+}

@@ -1,0 +1,87 @@
+.home {
+  margin-left: 28rem;
+  margin-top: 8rem;
+  display: flex;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+}
+.customercountbox {
+  border-radius: 6px;
+  background-color: white;
+  padding: 2.5rem;
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+}
+.customercountbox h1 {
+  font-size: 100%;
+  color: #4b5b6b;
+  margin-bottom: 1rem;
+}
+.customercountbox span {
+  font-weight: 600;
+  font-size: 20px;
+  color: #46505a;
+}
+.transactionhistorybox {
+  margin-left: 8rem;
+  border-radius: 6px;
+  background-color: white;
+  /* padding: 3rem 3rem; */
+  display: flex;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+.transationcontentheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.transationcontentheader h1 {
+  color: #3d4859;
+  font-size: 26px;
+  margin-top: 0.5rem;
+}
+.transactions {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.transactions h3 {
+  color: #4b5b6b;
+  font-size: 100%;
+  word-spacing: 0.2rem;
+}
+@media screen and (max-width: 1195px) {
+  .home {
+    margin-left: 18rem;
+  }
+}
+@media screen and (max-width: 1033px) {
+  .home {
+    margin-left: 18rem;
+  }
+  .transactionhistorybox {
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 936px) {
+  .home {
+    flex-direction: column;
+  }
+  .transactionhistorybox {
+    margin: 0;
+    width: 100%;
+  }
+  .customercountbox {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}

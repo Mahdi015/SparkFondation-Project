@@ -1,0 +1,29 @@
+.customerprofile {
+  margin-left: 16rem;
+  margin-top: 8rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.transfermoney {
+  margin: 0;
+  background-color: white;
+}
+.profileinfo {
+  margin: 0;
+  border-radius: 6px;
+  background-color: white;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 22px;
+  margin-right: 4rem;
+}
+.profileinfo h5 {
+  white-space: nowrap;
+}

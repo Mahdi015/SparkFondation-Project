@@ -1,0 +1,133 @@
+.transfermoney {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  flex-direction: column;
+}
+.transfermoney-content {
+  padding: 1.5rem 2rem;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  background-color: white;
+  width: 500px;
+}
+.transfermoney-content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.transfermoney-content-header h1 {
+  color: #3d4859;
+  font-size: 26px;
+}
+.sm_border {
+  display: block;
+  height: 2px;
+  width: 70px;
+  margin-bottom: 15px;
+  bottom: -5px;
+  background-color: #ff4a57;
+  transform: translate(-50%, 0);
+  position: relative;
+  left: 8%;
+}
+.transfermoney-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.transfermoney-input input,
+.transfermoney-input select {
+  border: 2px solid gray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100%;
+  min-height: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 0.3rem 0.7rem;
+  outline: none;
+  color: #495057;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-clip: padding-box;
+}
+
+.custominputs input {
+  border: 2px solid gray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 60%;
+  min-height: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 0.3rem 0.7rem;
+  outline: none;
+  color: #495057;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-clip: padding-box;
+}
+.transfermoney-input input:focus,
+.custominputs input:focus {
+  border-color: rgba(50, 50, 179, 0.781);
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+.transfermoney-input h4,
+.custominputs h4 {
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+  font-weight: 200;
+}
+.my-btn a {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.6;
+  width: 100%;
+  min-height: 50px;
+  background-image: linear-gradient(
+    to right,
+    #f3466c 0%,
+    #fb7636 50%,
+    #f3466c 100%
+  );
+  box-shadow: 0 4px 15px 0 rgb(163, 48, 10);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  outline: none;
+  cursor: pointer;
+  padding: 0 1rem;
+  color: white;
+  border: none;
+  text-decoration: none;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-size: 200% 100%;
+}
+.my-btn a:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
